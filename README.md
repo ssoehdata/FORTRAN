@@ -17,4 +17,5 @@ Working through various Fortran Resources
 #### Modern Fortran (Curcic)
 #### Guide To Fortran 2008 Progamming (Brainerd)
 #### Structured Fortran77 Progamming 4th Ed. (Etter) 
+#### FortranGuy (tutorial series)
 
