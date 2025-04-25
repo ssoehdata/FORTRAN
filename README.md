@@ -4,16 +4,13 @@
     <!-- <img src="https://github.com/ssoehdata/SQL/blob/main/postgresql.jpg" height="100"> -->
   </a>
 
-# SQL Queries for Mere Mortals
-Examples and Excercises from SQL Queries for Mere Mortals 4th Edition, John L. Viescas
-</div>
-
-
 
 # FORTRAN
 ![Fortran](https://a11ybadges.com/badge?logo=fortran)
 
 Working through various Fortran Resources 
+
+</div>
 Including: 
 
 <>Modern Fortran (Curcic)</>
