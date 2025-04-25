@@ -1,7 +1,7 @@
 <div align="center">
 <!-- Title: -->
   <a href="https://github.com/https://github.com/ssoehdata/FORTRAN/">   
-    <img src="https://github.com/ssoehdata/SQL/blob/main/postgresql.jpg" height="100">
+    <!-- <img src="https://github.com/ssoehdata/SQL/blob/main/postgresql.jpg" height="100"> -->
   </a>
 
 # SQL Queries for Mere Mortals
