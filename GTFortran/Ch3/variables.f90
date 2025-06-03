@@ -1,4 +1,4 @@
-! Example of passing variiables 
+! Example of passing variables 
 
 program series 
 
