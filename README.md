@@ -10,7 +10,7 @@
 
 Working through various Fortran Resources 
 
-![alt text](https://github.com/ssoehdata/FORTRAN/blob/main/perlin_small.jpg)
+![alt text](https://github.com/ssoehdata/FORTRAN/blob/main/perlin.jpg)
 
 </div>
 
