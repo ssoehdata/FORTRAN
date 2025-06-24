@@ -10,7 +10,7 @@
 
 Working through various Fortran Resources 
 
-![Fortran](.jpg)
+![alt text](https://github.com/ssoehdata/FORTRAN/Perlin_gnuplt/blob/perlin.jpg)
 
 </div>
 
