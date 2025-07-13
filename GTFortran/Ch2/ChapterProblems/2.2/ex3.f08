@@ -2,27 +2,27 @@
 program toll 
 
     implicit none 
-    character(len=1) :: C, B, T,veh_class, weight_class    
+    character(len=1) :: C, B, T, veh_class, weight_class    
 
     print *, "Enter type of vehicle class (C, B, or T)."
     read *, veh_class
     
-    IF (veh_class == 'C') THEN 
+    IF (veh_class == 'C' .OR.  veh_class == 'c') THEN 
         print *, "Enter if weight is < or > than 10,000 lbs."
         read *, weight_class
         print *, "Your toll is $3.00"        
     
-        ELSE IF (veh_class == 'B') THEN 
+        ELSE IF (veh_class == 'B' .OR. veh_class == 'b') THEN 
             print *, "Enter if weight is < or > than 10,000 lbs."
             read *, weight_class
         
-        IF (weight_class == '>') THEN 
+        IF (weight_class == '>' ) THEN 
                 print *, "Your toll is $4.00"
         ELSE IF (weight_class == '<') THEN 
                 print *, "Your toll is $4.00"          
         END IF  
 
-        ELSE IF (veh_class == 'T') THEN 
+        ELSE IF (veh_class == 'T' .OR. veh_class == 't') THEN 
             print *, "Enter if weight is < or > than 10,000 lbs."
             read *, weight_class
         IF (weight_class == '>') THEN 
