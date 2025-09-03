@@ -22,6 +22,7 @@ Working through various Fortran Resources
 #### Silverfrost FTN95 Guides and Example programs for Fortran77 and Fortran95
 ### Diverse resources
 <ul>
+    <li>Fortran Tutorial(Janet A Nicholson)</li>
     <li>FortranGuy (tutorial series)</li>
 
 </ul>
