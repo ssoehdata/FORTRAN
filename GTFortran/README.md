@@ -7,7 +7,6 @@ Working through the Guide to Fortran 2008 Programming book.
 </div>
 
 
-
 ##### Table of Contents
 ### <ul><li>Chapter 1: Introduction to Programming in Fortran</ul></li>
 ### <ul><li>1.1 Programs that Calculate and Print</ul></li>
