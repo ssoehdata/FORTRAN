@@ -8,8 +8,8 @@ Working through the Guide to Fortran 2008 Programming book.
 
 
 
-## Table of Contents
-##### <ul><li>Chapter 1: Introduction to Programming in Fortran</ul></li>
+##### Table of Contents
+### <ul><li>Chapter 1: Introduction to Programming in Fortran</ul></li>
 ### <ul><li>1.1 Programs that Calculate and Print</ul></li>
 ##### <ul><li>1.2 Intrinsic Data Types</ul></li>
 ##### <ul><li>1.3Ensuring Your Database Structure is Sound</ul></li> 
