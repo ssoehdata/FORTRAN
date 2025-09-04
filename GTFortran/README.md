@@ -19,10 +19,15 @@ Working through the Guide to Fortran 2008 Programming book.
 ### <ul><li>1.8 Case Study: Quadratic Formula</ul></li>
 ### <ul><li>1.9 Case Study: Debugging Pendulum Calcuations</ul></li>
 ### <ul><li>Chapter 2: Control Constructs</ul></li>
-
-
-##### <ul><li>Chapter 9: OUTER JOINS</ul></li>
-##### <ul><li>Chapter 10: UNIONS</li>
+##### <ul><li>2.1 Statement Blocks</ul></li>
+##### <ul><li>2.2 The if Construct</ul></li>
+##### <ul><li>2.3 The case Construct</ul></li>
+##### <ul><li>2.4 The do Construct</ul></li>
+##### <ul><li>2.5 Case Study: Numerical Integration I</ul></li>
+##### <ul><li>2.6 Excercises</ul></li>
+##### <ul><li>2.7 The stop Statement</ul></li>
+##### <ul><li>2.8 THe go to and continue Statements</ul></li>
+##### <ul><li>Chapter 3 Modules and Procedures</li>
 ##### <ul><li>Chapter 11: Subqueries</ul></li>
 ###  <ul><li>PART IV Summarizing and Grouping Data</ul></li>
 ##### <ul><li>Chapter 12: Simple Totals</ul></li>
