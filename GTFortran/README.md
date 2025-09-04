@@ -7,19 +7,18 @@ Working through the Guide to Fortran 2008 Programming book.
 </div>
 
 
-##### Table of Contents
+## Table of Contents
 ### <ul><li>Chapter 1: Introduction to Programming in Fortran</ul></li>
 ### <ul><li>1.1 Programs that Calculate and Print</ul></li>
-##### <ul><li>1.2 Intrinsic Data Types</ul></li>
-##### <ul><li>1.3Ensuring Your Database Structure is Sound</ul></li> 
-##### <ul><li>Chapter 3: A Concise History of SQL</ul></li>
-### <ul><li>PART II SQL Basics</ul></li>
-##### <ul><li>Chapter 4: Creating a Simple Query</ul></li>
-##### <ul><li>Chapter 5: Getting More Than Simple Columns</ul></li>
-##### <ul><li>Chapter 6: Filtering Your Data</ul></li>
-### <ul><li>Part III Working With Multiple Tables</ul></li>
-##### <ul><li>Chapter 7: Thinking In Sets</ul></li>
-##### <ul><li>Chapter 8: INNER JOINS</ul></li>
+### <ul><li>1.2 Intrinsic Data Types</ul></li>
+### <ul><li>1.3 Variables and Input</ul></li> 
+### <ul><li>1.4 The form of a Fortran Program</ul></li>
+### <ul><li>1.5 Some Intrinsic Functions</ul></li>
+### <ul><li>1.6 Expressions and Assignment</ul></li>
+### <ul><li>1.7 Introduction to Formatting</ul></li>
+### <ul><li>1.8 Case Study: Quadratic Formula</ul></li>
+### <ul><li>1.9 Case Study: Debugging Pendulum Calcuations</ul></li>
+### <ul><li>Chapter 2: Control Constructs</ul></li>
 
 
 ##### <ul><li>Chapter 9: OUTER JOINS</ul></li>
