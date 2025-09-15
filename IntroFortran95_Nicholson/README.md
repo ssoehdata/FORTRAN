@@ -10,3 +10,11 @@
 </ul>
 
 
+## Table of Contents
+##### <ul><li>Worksheet 1: Basics</ul></li>
+##### <ul><li>Worksheet 2: Decisions</ul></li>
+##### <ul><li>Worksheet 3: Loops</ul></li>
+##### <ul><li>Worksheet 4: Files & Precision</ul></li>
+##### <ul><li>Worksheet 5: Arrays & IO</ul></li>
+##### <ul><li>Worksheet 6: Subprograms</ul></li>
+##### <ul><li>Worksheet 7: Advanced Topics</ul></li>
