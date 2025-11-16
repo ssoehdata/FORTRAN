@@ -1,4 +1,4 @@
-PROGAM O 
+PROGRAM O 
     IMPLICIT NONE 
     INTEGER  case 
     REAL a,b,c,x1,x2
