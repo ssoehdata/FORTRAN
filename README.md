@@ -20,6 +20,7 @@ Working through various Fortran Resources
 #### Guide To Fortran 2008 Progamming (Brainerd)
 #### Structured Fortran77 Progamming 4th Ed. (Etter) 
 #### Silverfrost FTN95 Guides and Example programs for Fortran77 and Fortran95
+#### Fortran 90 For Engineers and Scientists (Nyhoff, Leestma)
 ### Diverse resources
 <ul>
     <li>Fortran Tutorial(Janet A Nicholson)</li>
