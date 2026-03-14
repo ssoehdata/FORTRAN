@@ -10,6 +10,8 @@
 
 Working through various Fortran Resources 
 
+"No computer is complete without Fortran" - Ken Thompson (VCF East 2019, Interview with Brian Kernighan)
+
 ![alt text](https://github.com/ssoehdata/FORTRAN/blob/main/perlin.jpg)
 
 </div>
