@@ -10,7 +10,7 @@
 
 Working through various Fortran Resources 
 
-"No computer is complete without Fortran" - Ken Thompson   (VCF East 2019, Interview with Brian Kernighan)
+"No computer is complete without Fortran" - Ken Thompson   
 
 ![alt text](https://github.com/ssoehdata/FORTRAN/blob/main/perlin.jpg)
 
@@ -30,3 +30,4 @@ Working through various Fortran Resources
 
 </ul>
 
+( Ken Thompson qoute from Interview with Brian Kernighan VCF East 2019)
