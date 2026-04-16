@@ -1,7 +1,7 @@
-# GTFortran
+# Fortran for Scientists and Engineers
 ![Fortran](https://a11ybadges.com/badge?logo=fortran)
 
-Working through the Guide to Fortran for Scientists and Engineers, Chapman 4th Edition.
+Working through the Guide to Fortran for Scientists and Engineers, Stephen J. Chapman 4th Edition.
 
 </div>
 
