@@ -3,7 +3,7 @@
 PROGRAM table 
 !
 ! Purpose:
-!   To illustrate the use of formatted to WRITE statements.
+!   To illustrate the use of formatted WRITE statements.
 !   This program generates a table containing the square roots,
 !   squares, and cube roots of all integers between 1 and 10. 
 !   The table includes a title and column headings. 
