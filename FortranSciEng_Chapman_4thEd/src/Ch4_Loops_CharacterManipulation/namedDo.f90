@@ -1,4 +1,4 @@
-! Names can be assigned to loops.
+! Names can be assigned to loops (and EXIT statements).
 ! name can be up to 63 alphanumeric characters
 
 ! Syntax: 
