@@ -47,7 +47,7 @@ END PROGRAM test_cycle
 ! PROGRAM test_cycle 
 ! INTEGER :: i 
 ! DO i = 1, 5 
-!    IF ( i == 3) CYCLE 
+!    IF ( i == 3) EXIT
 !    WRITE (*,*) i 
 ! END DO
 ! WRITE (*,*) 'End of loop!' 
