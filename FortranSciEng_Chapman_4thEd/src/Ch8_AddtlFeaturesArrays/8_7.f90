@@ -1,4 +1,4 @@
-! Example 8 -2 
+! Example 8-7  
 ! Determine the properties of an array 
 PROGRAM check_array 
 
