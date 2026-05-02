@@ -8,10 +8,10 @@ IMPLICIT NONE
 INTEGER, PARAMETER :: MAX_SIZE = 10  ! Max values in array
 
 ! Data dictionary: declare variable types, definitions, & units
-INTEGER :: j                          ! Loop index 
-REAL, DIMENSION(MAX_SIZE) :: value      ! Array of numbers
-REAL, DIMENSION(MAX_SIZE) :: square_root ! Array of square roots 
-REAL, DIMENSION(MAX_SIZE) :: cube_root   ! Array of cube roots
+INTEGER :: j                                ! Loop index 
+REAL, DIMENSION(MAX_SIZE) :: value          ! Array of numbers
+REAL, DIMENSION(MAX_SIZE) :: square_root    ! Array of square roots 
+REAL, DIMENSION(MAX_SIZE) :: cube_root      ! Array of cube roots
 
 ! Calculate the square roots & cube roots  of the numbers.
 DO j = 1, MAX_SIZE

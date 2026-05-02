@@ -11,7 +11,7 @@ PROGRAM squares
 
     ! Initialize number and calculate square 
     DO i = 1, 10 
-        number(i) = i                  ! Initialize number 
+        number(i) = i                     ! Initialize number 
         square(i) = number(i)**2          ! Calculate square 
     END DO 
 
