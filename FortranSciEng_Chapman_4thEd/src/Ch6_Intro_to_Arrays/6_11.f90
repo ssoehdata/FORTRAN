@@ -19,5 +19,6 @@ PROGRAM array_io
         ! Output array section selcted by a vector subsript.
         WRITE(*,100) a(vec) 
 
-        END PROGRAM array_io
+END PROGRAM array_io
+
 
