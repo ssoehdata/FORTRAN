@@ -1,5 +1,6 @@
 ! Example 8-7  
-! Determine the properties of an array 
+! Determine the properties of an array using 
+! SHAPE, SIZE, LBOUND and UBOUND.
 PROGRAM check_array 
 
     IMPLICIT NONE
