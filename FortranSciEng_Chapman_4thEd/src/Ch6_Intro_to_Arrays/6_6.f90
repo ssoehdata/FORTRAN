@@ -1,7 +1,7 @@
 ! Example 6-6 
 ! Illustrate the effect of out-of-bounds array references with 
 ! and without bounds checking turned on.
-! (IFX produces identical error messages) 
+! (IFX and GNU Fortran produce identical and similar error messages respectively) 
 
 ! with bound checking on (win OS environment flags):
 ! ifort -check file_name.f90 -o filename 
@@ -29,8 +29,18 @@
 ! boundCheck.exe     00007FF6A904F524  Unknown               Unknown  Unknown
 ! KERNEL32.DLL       00007FFF8CA4E8D7  Unknown               Unknown  Unknown
 ! ntdll.dll          00007FFF8D94C53C  Unknown               Unknown  Unknown
-!########################################################################################################################
+! ########################################################################################################################
 
+! #######################################################################################################################
+! Gnufortran(gfortran) produces similar error messaging: 
+! a(1) =   1.00
+! a(2) =   2.00
+! a(3) =   3.00
+! a(4) =   4.00
+! a(5) =   5.00
+! At line 44 of file 6_6.f90
+! Fortran runtime error: Index '6' of dimension 1 of array 'a' above upper bound of 5
+! ########################################################################################################################
 
 PROGRAM bounds 
     IMPLICIT NONE 
