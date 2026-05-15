@@ -1,0 +1,84 @@
+! A corrected verosun of the sort progam that detects array overflows
+
+PROGRAM sort2 
+    IMPLICIT NONE 
+
+INTEGER, PARAMETER :: MAX_SIZE = 10 
+
+REAL, DIMENSION(MAX_SIZE) :: a          ! Data array to sort
+LOGICAL :: exceed = .FALSE.             ! Logical indicating array limits
+                                     ! are exceeded.
+CHARACTER(len=20)       :: filename                                    
+INTEGER                 :: i 
+INTEGER                 :: iptr
+INTEGER                 :: j
+CHARACTER(len=80)        :: msg
+INTEGER                 :: nvals = 0
+INTEGER                 :: status
+REAL                    :: temp       ! Temporary variable for swapping
+
+WRITE (*,1000) 
+1000 FORMAT ( 'Enter the file name with the data to be sorted: ')
+READ (*, '(A20)') filename 
+
+! Open input data file. Status is OLD because the input data must 
+! already exist. 
+OPEN ( UNIT=9, FILE=filename, STATUS='OLD', ACTION='READ',&
+      IOSTAT=status, IOMSG=msg )
+
+! Was the OPEN succesful?      
+fileopen: IF (status == 0 ) THEN        ! Open successful 
+    ! The file was opened successfuly, so read the data to sort 
+    ! from it, sort the data, and write out the results.
+    ! First read in data. 
+DO 
+    READ (9, *, IOSTAT=status) temp     ! Get value 
+    IF ( status /= 0 ) EXIT             ! Exit on end of data
+    nvals = nvals + 1                ! Bump count 
+    size: IF ( nvals <= MAX_SIZE ) THEN ! Too many values?
+        a(nvals) = temp               ! No: Save value in array
+    ELSE
+        exceed = .TRUE.               ! Yes: Array overflow 
+    END IF size
+END DO 
+
+! Was the array size exceeded? If so, tell user and quit. 
+toobig: IF ( exceed ) THEN 
+    WRITE (*, 1010 ) nvals, MAX_SIZE 
+    1010 FORMAT (' Maximum array size exceeded: ', I6, ' > ', I6 )
+ELSE toobig
+    
+    ! Limit not exceeded: sort the data.
+    outer: DO i = 1, nvals-1
+
+    ! Find the minimum value in a(i) through n(vals)
+    iptr = i 
+    inner: DO j = i+1, nvals
+        minval: IF ( a(j) < a(iptr) ) THEN 
+          iptr = j 
+        END IF minval 
+    END DO inner 
+
+    ! iptr now points to the minimum value, so swap a(iptr) with
+    ! a(i) if i /= iptr.
+    swap: IF ( i /=iptr ) THEN 
+        temp   = a(i)
+        a(i)     = a(iptr)
+        a(iptr)  = temp
+    END IF swap
+END DO outer
+
+    ! Now write out the sorted data. 
+    WRITE (*, '(A)') ' The sorted output data values are: ' 
+    WRITE (*, '(3X,F10.4)') ( a(i), i = 1, nvals )
+
+    END IF toobig 
+
+ELSE fileopen 
+
+    ! Else file open failed. Tell user. 
+    WRITE (*,1050) TRIM(msg)
+    1050 FORMAT ('FILE open failed--error = ', A)
+END IF fileopen 
+
+END PROGRAM sort2
