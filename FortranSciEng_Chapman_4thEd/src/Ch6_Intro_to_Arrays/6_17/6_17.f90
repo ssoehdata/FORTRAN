@@ -1,4 +1,4 @@
-! A corrected verosun of the sort progam that detects array overflows
+! A corrected version of the sort progam that detects array overflows
 
 PROGRAM sort2 
     IMPLICIT NONE 
