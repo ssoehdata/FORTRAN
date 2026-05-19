@@ -74,7 +74,7 @@ PROGRAM extremes
 
     END IF size 
 
-    END PROGRAM extremes 
+END PROGRAM extremes 
     
 
 
