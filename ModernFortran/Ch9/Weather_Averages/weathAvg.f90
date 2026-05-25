@@ -35,15 +35,16 @@ program weather_average
        total_score = (temperature_score + humidity_score &
                + wind_score + clear_score) / 4 
        
-       ! Generates the table    
+       ! Generates the table   
+      write(*,*) 
        print *, 'City | Temp. | Humidity | Wind  | Clear | Total'
        print *, 'Code | Score | Score    | Score | Score | Score'
        do n = 1, nm 
        write (*, '(1x, a4, 3x, 5(f4.2, 5x))') cities(n), temperature_score(n), & 
                humidity_score(n), wind_score(n), clear_score(n), total_score(n)
        end do 
-
+       
+       write(*,*)
+       
 end program weather_average
-
-
-     
+    
