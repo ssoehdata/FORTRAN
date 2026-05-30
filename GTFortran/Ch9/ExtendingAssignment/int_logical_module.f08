@@ -1,10 +1,9 @@
 ! Extending Assignment:
 ! *********************
-! Operators can be defined and intrinsics can be 
-! extended.
+! Operators can be defined and intrinsics can be extended.
 
 ! -------------------------------------------------------------------------
-! A subrotine that serves to define an assigment must have exactly 
+! A subroutine that serves to define an assigment must have exactly 
 ! two arguments: 1) the first arg must be intent(out)  or intent(in out)
 !                2) second arg must be intent(in)
 ! --------------------------------------------------------------------------
