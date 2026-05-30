@@ -11,6 +11,7 @@ program quadratic_equation_solver_2
     real :: a, b, c, x1, x2, sub_expression
 
 ! Read the coefficients
+    print *
     print *, "Enter a, the coefficient of x **2"
     read * , a
     print *, "Enter b, the coefficient of x"
@@ -24,7 +25,9 @@ program quadratic_equation_solver_2
     x2 = (-b - sub_expression) / (2 * a)
 
 !Print the roots
+    print *
     print *, "The roots are"
     print *, "x1 = ", x1
     print *, "x2 = ", x2
+    print *
 end program quadratic_equation_solver_2
