@@ -1,0 +1,2 @@
+The test READ1.DAT file returns error free output.
+The READ2.DAT file returns an error on line 3 in the output error message.
