@@ -1,0 +1,26 @@
+These examples illustrate addressing round-off errors using Gauss-Jordan elimination
+in large systems of simultaneous linear equations. 
+
+The sample data sets cover both well-conditioned, and ill-conditioned systems (those that exhibit round-off error).
+Double precision is used to help reduce round-off errors, and can be used to produce correct answers
+for even difficult systems of equations. 
+
+The subroutine simul.f90 is from Ch.9 (example simul2 in that chapter) and
+is used for comparison with the dsimul.f90 program from Ch11.
+
+The driver program for testing is the test_dsimul.f90 program.
+
+Three data sets are used SYS6.ILL, SYS6.WEL, and SYS6.SNG (this final set has no unique solution).
+
+Note that these test sets are 6x6 arrays, although the subroutine 
+makes use of allocatable arrays, and therefore unlimited array sizes 
+are permitted. 
+
+--------------------
+Significant differences in the results for the single and double precision calculations on the ill-conditioned data set.
+
+Essentially identical results are obtained for the single and double precision calculations on the well-conditioned
+system. 
+
+The subroutine (dsimul) correctly identifies and flags the lack of a unique solution for 
+the SYS6.SNG set.
