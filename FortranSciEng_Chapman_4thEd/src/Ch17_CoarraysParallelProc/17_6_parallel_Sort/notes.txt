@@ -1,0 +1,16 @@
+This chapter demonstrates aspects of coarray programming. The SYNC IMAGES command to prevent race conditions is 
+illustrated, as well as different codimension notations, and compares sequential and parallel examples. 
+
+N.B.: Numerous inconsistent notation typographical errors are present this chapter resulting in compile errors that needed to be    	corrected for compilation.
+      (e.g. b[1] instead of b1 in the test_sort.f90 (17-6) source in the text.
+
+The timer_class program is from ch16.
+
+N.B.: For the testSort.f90 program (figure 17-6 in the text), link the following object files 
+(here using ifort on windows as example):
+
+ifort testSort.obj merge_module.obj timer_class.obj  
+
+	The sort results are identical when sorting the data in parallel
+	and as a single image. However, it is twice as 
+	fast if there are two images doing the work. 
