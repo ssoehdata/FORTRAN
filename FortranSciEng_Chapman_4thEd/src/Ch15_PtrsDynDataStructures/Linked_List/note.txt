@@ -1,0 +1,3 @@
+- getting segfault using gfortran 14.2.0 
+
+- compiles correctly with ifort 2021.13.0 Build 20240602_000000
